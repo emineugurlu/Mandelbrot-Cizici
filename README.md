@@ -41,3 +41,9 @@ python mandelbrot_cizici.py
 
 <img width="846" height="626" alt="{7CD7A15F-8C7A-40EB-8F3A-F6B3DF99FE54}" src="https://github.com/user-attachments/assets/f4206d70-5675-4021-84b5-566a3fc47dad" />
 
+<img width="737" height="499" alt="1" src="https://github.com/user-attachments/assets/cb9d7e09-7c01-4249-add0-7df25f7b95f3" />
+
+
+<img width="742" height="543" alt="2" src="https://github.com/user-attachments/assets/afcaeebc-e20a-4392-9612-05f0c9e814cd" />
+
+<img width="924" height="540" alt="{50C6D9BE-9AFF-4593-8E5B-E2291716E48E}" src="https://github.com/user-attachments/assets/4214c656-28e2-4f46-9afd-c9aa20fc68e2" />
