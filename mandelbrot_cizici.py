@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 
 
 MAX_ITERASYON = 500
-JULIA_SABITI =complex (-0.7, 0.27015)
-def julia_hesapla(z):
-    c=JULIA_SABITI
+
+def fraktal_hesapla_kup(c):
+    z= 0 + 0j
     for n in range(MAX_ITERASYON):
-        z = z**2 + c 
+        z = z**3 + c 
         if abs(z) > 2.0:
             return n 
     return MAX_ITERASYON
@@ -30,10 +30,10 @@ for x in range(GENISLIK):
         
         reel_kisim = REEL_MIN + (x / GENISLIK) * (REEL_MAX - REEL_MIN)
         sanal_kisim = SANAL_MIN + (y / YUKSEKLIK) * (SANAL_MAX - SANAL_MIN)
-        z_baslangic=complex(reel_kisim, sanal_kisim)
+        c =complex(reel_kisim, sanal_kisim)
         
         
-        iterasyon_sayisi = julia_hesapla(z_baslangic)
+        iterasyon_sayisi = fraktal_hesapla_kup(c)
         
         
         resim_dizisi[y, x] = iterasyon_sayisi
