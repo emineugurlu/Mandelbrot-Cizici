@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 
 
 MAX_ITERASYON = 500
-
-def mandelbrot_hesapla(c):
-    z = 0 + 0j
+JULIA_SABITI =complex (-0.7, 0.27015)
+def julia_hesapla(z):
+    c=JULIA_SABITI
     for n in range(MAX_ITERASYON):
         z = z**2 + c 
         if abs(z) > 2.0:
@@ -16,10 +16,10 @@ def mandelbrot_hesapla(c):
 GENISLIK = 800
 YUKSEKLIK = 600
 
-REEL_MIN = -0.8
-REEL_MAX = -0.7
-SANAL_MIN = 0.1
-SANAL_MAX = 0.2
+REEL_MIN = -1.5
+REEL_MAX = 1.5
+SANAL_MIN = -1.5
+SANAL_MAX = 1.5
 
 resim_dizisi = np.zeros((YUKSEKLIK, GENISLIK))
 
@@ -30,10 +30,10 @@ for x in range(GENISLIK):
         
         reel_kisim = REEL_MIN + (x / GENISLIK) * (REEL_MAX - REEL_MIN)
         sanal_kisim = SANAL_MIN + (y / YUKSEKLIK) * (SANAL_MAX - SANAL_MIN)
-        c = complex(reel_kisim, sanal_kisim)
+        z_baslangic=complex(reel_kisim, sanal_kisim)
         
         
-        iterasyon_sayisi = mandelbrot_hesapla(c)
+        iterasyon_sayisi = julia_hesapla(z_baslangic)
         
         
         resim_dizisi[y, x] = iterasyon_sayisi
