@@ -4,17 +4,17 @@ import matplotlib.pyplot as plt
 
 MAX_ITERASYON = 500
 
-def fraktal_hesapla_kup(c):
+def fraktal_hesapla_dort(c):
     z= 0 + 0j
     for n in range(MAX_ITERASYON):
-        z = z**3 + c 
+        z = z**4 + c 
         if abs(z) > 2.0:
             return n 
     return MAX_ITERASYON
 
 
-GENISLIK = 800
-YUKSEKLIK = 600
+GENISLIK = 1200
+YUKSEKLIK = 900
 
 REEL_MIN = -1.5
 REEL_MAX = 1.5
@@ -33,13 +33,13 @@ for x in range(GENISLIK):
         c =complex(reel_kisim, sanal_kisim)
         
         
-        iterasyon_sayisi = fraktal_hesapla_kup(c)
+        iterasyon_sayisi = fraktal_hesapla_dort(c)
         
         
         resim_dizisi[y, x] = iterasyon_sayisi
 
 
-plt.imshow(resim_dizisi, cmap='twilight') 
+plt.imshow(resim_dizisi, cmap='Spectral') 
 plt.axis('off')
 plt.savefig("mandelbrot_ilk_cizim.png", bbox_inches='tight', pad_inches=0)
 
