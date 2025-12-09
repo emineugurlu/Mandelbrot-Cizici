@@ -35,3 +35,9 @@ Running the Code
 To run the project and generate the fractal image (mandelbrot_ilk_cizim.png), execute the following command:
 ```bash
 python mandelbrot_cizici.py
+```
+
+## 🎥 Project Screenshot
+
+<img width="846" height="626" alt="{7CD7A15F-8C7A-40EB-8F3A-F6B3DF99FE54}" src="https://github.com/user-attachments/assets/f4206d70-5675-4021-84b5-566a3fc47dad" />
+
