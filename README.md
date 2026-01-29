@@ -47,4 +47,4 @@ python mandelbrot_cizici.py
 <img width="742" height="543" alt="2" src="https://github.com/user-attachments/assets/afcaeebc-e20a-4392-9612-05f0c9e814cd" />
 
 <img width="924" height="540" alt="{50C6D9BE-9AFF-4593-8E5B-E2291716E48E}" src="https://github.com/user-attachments/assets/4214c656-28e2-4f46-9afd-c9aa20fc68e2" />
-test
+Co-authored-by: gemini-bot <gemini-bot@google.com>
