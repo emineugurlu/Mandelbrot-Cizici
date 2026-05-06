@@ -39,10 +39,10 @@ This project demonstrates the application of core computational and physics prin
 ## 🛠️ Installation & Setup
 
 1. **Clone the Project:**
-   ```bash
+  ```bash
    git clone [https://github.com/emineugurlu/Fractal-Visualizer.git](https://github.com/emineugurlu/Fractal-Visualizer.git)
    cd Fractal-Visualizer
-
+````
 2. **Install Dependencies:**
   ````bash
   pip install numpy matplotlib
