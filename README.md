@@ -48,7 +48,7 @@ This project demonstrates the application of core computational and physics prin
   pip install numpy matplotlib
   ````
 3. **Run the Engine:**
-   ````bash
+ ````bash
    python mandelbrot_cizici.py
    ````
    
