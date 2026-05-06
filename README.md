@@ -1,50 +1,55 @@
-# 🌌 Fractal Visualizer: Math and Art Project
+# 🌌 Fractal Visualizer: Mathematical Art & Iterative Exploration
 
-This project is a simple visualizer built using **Python** and fundamental **Mathematics/Physics** principles to generate fractal images on the complex number plane.
+> **"A high-precision visualization engine designed to render complex fractals through iterative mathematical formulas. Built with Python and NumPy, this project explores the infinite beauty of the complex plane by merging computational power with generative art."**
 
-## 🎯 Project Goal and Key Learnings
+![Language](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Library](https://img.shields.io/badge/Library-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Visualization](https://img.shields.io/badge/Visualization-Matplotlib-11557C?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-This application was developed to help a beginner programmer/math enthusiast grasp the following core concepts:
+**Fractal Visualizer** is a specialized tool that transforms abstract mathematical theories into high-resolution visuals. Developed by **Emine Uğurlu**, it serves as a bridge between complex number theory and digital art, allowing users to navigate and render the infinite boundaries of fractal geometry.
 
-* **Complex Numbers and Mapping:** Transforming pixel coordinates (x, y) into the complex plane's fixed/starting values.
-* **Iteration Formulas:** Understanding the complex structures created by the iterative application of a simple mathematical rule (e.g., $z_{n+1} = z_n^2 + c$).
-* **Fractal Types:** Drawing the Mandelbrot Set, Julia Sets, and generalized $z^n + c$ fractals.
-* **Data Visualization:** Using color maps (`Matplotlib`) to render the calculation results (`NumPy` arrays) into aesthetic visuals and achieving high-resolution output.
-* **Version Control:** Gaining practical experience with Git and GitHub to track and save project progress.
+---
 
-## 🖼️ Project Output Example
+## 🚀 Engineering & Mathematics
 
-*(Place your high-resolution fractal image here. You can upload it to your GitHub repository and link to it using this format: `![Mandelbrot Fractal Image](images/mandelbrot_zoom.png)`)*
+This project demonstrates the application of core computational and physics principles:
 
-## 🛠️ Technologies Used
+* **Complex Plane Mapping:** High-efficiency transformation of pixel coordinates into the complex number system for precise rendering.
+* **Iterative Algorithms:** Implementation of the $z_{n+1} = z_n^2 + c$ formula to generate iconic structures like the Mandelbrot and Julia sets.
+* **Optimized Computation:** Leveraging **NumPy**'s vectorized operations to achieve high-speed iteration across large-scale numerical arrays.
+* **Color Mapping & Rendering:** Utilizing advanced **Matplotlib** colormaps to visualize escape-time data in high-fidelity aesthetic formats.
 
-* **Language:** Python 3.x
-* **Mathematical Operations:** NumPy
-* **Visualization:** Matplotlib
+## ✨ Core Features
 
-## 🚀 How to Run the Project
+* 🌀 **Multiple Fractal Types:** Support for Mandelbrot, Julia, and generalized power-based fractals ($z^n + c$).
+* 🎨 **Dynamic Visualization:** Aesthetic rendering with customized color schemes to highlight mathematical depth.
+* 📏 **High-Resolution Exports:** Logic designed to output high-quality PNG images for digital display.
+* 🛠️ **Modular Logic:** Clean, reusable Python scripts for adding new mathematical rules and iterative formulas.
 
-### Prerequisites
+## 🖼️ Visual Gallery
 
-Ensure Python 3.x is installed. Install the necessary libraries by running the following command in your terminal:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f4206d70-5675-4021-84b5-566a3fc47dad" width="45%" />
+  <img src="https://github.com/user-attachments/assets/4214c656-28e2-4f46-9afd-c9aa20fc68e2" width="45%" />
+</p>
 
-```bash
-pip install numpy matplotlib
-```
-Running the Code
-To run the project and generate the fractal image (mandelbrot_ilk_cizim.png), execute the following command:
-```bash
-python mandelbrot_cizici.py
-```
+---
 
-## 🎥 Project Screenshot
+## 🛠️ Installation & Setup
 
-<img width="846" height="626" alt="{7CD7A15F-8C7A-40EB-8F3A-F6B3DF99FE54}" src="https://github.com/user-attachments/assets/f4206d70-5675-4021-84b5-566a3fc47dad" />
+1. **Clone the Project:**
+   ```bash
+   git clone [https://github.com/emineugurlu/Fractal-Visualizer.git](https://github.com/emineugurlu/Fractal-Visualizer.git)
+   cd Fractal-Visualizer
 
-<img width="737" height="499" alt="1" src="https://github.com/user-attachments/assets/cb9d7e09-7c01-4249-add0-7df25f7b95f3" />
-
-
-<img width="742" height="543" alt="2" src="https://github.com/user-attachments/assets/afcaeebc-e20a-4392-9612-05f0c9e814cd" />
-
-<img width="924" height="540" alt="{50C6D9BE-9AFF-4593-8E5B-E2291716E48E}" src="https://github.com/user-attachments/assets/4214c656-28e2-4f46-9afd-c9aa20fc68e2" />
-
+2. **Install Dependencies:**
+  ````bash
+  pip install numpy matplotlib
+  ````
+3. **Run the Engine:**
+   ````bash
+   python mandelbrot_cizici.py
+   ````
+   
+Developed by Emine Uğurlu - Computer Engineer
